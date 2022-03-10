@@ -1,4 +1,9 @@
 //CSV file obtained from https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs/blob/main/OCD-Datalake-russia-ukraine_IOCs-ALL.csv
+//HOW TO RUN THE SCRIPT
+  //Install nodejs from https://nodejs.org/en/
+  //Navigate to where the script is saved
+  //Type npm install to install the neceessary node modules
+  //Type node main.js to run the script
 import fetch from 'node-fetch';
 const url = "https://raw.githubusercontent.com/Orange-Cyberdefense/russia-ukraine_IOCs/main/OCD-Datalake-russia-ukraine_IOCs-ALL.csv";
 //const jsonHTML = document.getElementById("json");
@@ -48,7 +53,6 @@ async function getData() {
       };
 
       //console.log("alert dns any any -> any any (msg: \"Suspected Russian-Ukraine Conflict Related IOC Domain\"\; dns_query; content:\"%s\"\; nocase\; content:!\"af.mil\"\; content:!\"comcast.net\"\; content:!\"attlocal.net\"\; content:!\".gov\"\; content:!\"comcast.net\"\; content:!\".home\"\; content:!\".lan\"\; content:!\"usaf.mil\"\; content:!\"cloudfront.net\"\; content:!\"online-metrix.net\"\; content:!\"akamai.net\"\; content:!\"footprintdns.com\"\; content:!\"office.com\"\; content:!\".rac2v1a\"\; content:!\"radar.net\"\; content:!\".area52\"\; content:!\"afnoapps\"\; content:!\".mil\"\; content:!\".area52.afnoapps.usaf.mil\"\;");
-
 
     };
 }
